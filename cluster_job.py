@@ -7,6 +7,9 @@ from pyspark.ml.feature import Tokenizer, StopWordsRemover
 import matplotlib as mpl
 mpl.use('Agg')
 import seaborn as sns
+import sys
+
+fn = sys.argv[1]
 
 # Create contexts
 sc = SparkContext(appName="SparkWorkshop")
@@ -26,7 +29,7 @@ tokenizer = Tokenizer(inputCol="comment_clean", outputCol="words")
 stopWordsRemover = StopWordsRemover(inputCol="words", outputCol="tokens")
 
 # Load data
-comments = sqlContext.read.json("data/hacker_news_small.json")
+comments = sqlContext.read.json(fn)
 
 # Calcualte tokens dataframe as one pipeline
 tokens = stopWordsRemover.transform(
@@ -43,6 +46,7 @@ tokens = stopWordsRemover.transform(
 
 # Switch to Pandas
 tokens_pdf = tokens.toPandas()
+tokens_pdf = tokens_pdf.ix[1:]
 tokens_pdf["rank"] = range(1, tokens_pdf.shape[0] + 1)
 print(tokens_pdf.head())
 
