@@ -36,12 +36,10 @@ On Windows open a Command Prompt or on OS X open a Terminal and type `java
 ### Installing Spark
 
 1. On OS X, download the [Spark tarball](http://spark.apache.org/downloads.html) from the Spark site.
-   Select version 2.1.0, "Pre-built for Hadoop 2.7 and later", and "Select Apache Mirror".
-   You can then click on the file named "spark-2.1.0-bin-hadoop2.7.tgz" which is a link that
+   Select latest version, "Pre-built for Hadoop 2.7 and later", and "Select Apache Mirror".
+   You can then click on the file name which is a link that
    will take you to a page with a link to the download. The file will now probably be in your Downloads directory.
-1. **OR** On Windows, you can download the same file as above but re-compressed to [spark-2.1.0-bin-hadoop2.6.zip from a
-   DSI web server here](http://elk.acis.ufl.edu/spark-2.1.0-bin-hadoop2.6.zip).
-   The file will now probably be in your Downloads directory.
+1. On Windows, you may need a program that can work with .tgz files. You can try [7-Zip](http://www.7-zip.org/).
 1. Create a directory for this workshop on your Desktop.
 1. Extract the tarball or zip file to the new directory you just created so it
    looks like this when using the Command Prompt or Terminal (your version will be more recent)
