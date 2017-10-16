@@ -56,17 +56,19 @@ On Windows open a Command Prompt or on OS X open a Terminal and type `java
 
 **If you have been attending DSI Python workshops, this should already be set up**
 
-1. Download the [Anaconda Python 2.7 installer](https://www.continuum.io/downloads)
+1. Download the [Anaconda Python 3.x installer](https://www.continuum.io/downloads)
    for your operating system.
 1. When installing, you can use the defaults but make sure the "Add Anaconda to my PATH"
    option is checked.
    
 #### Check it!
 On Windows open a Command Prompt or on OS X open a Terminal and type
-```python --version
+```
+python --version
 ```
 You should see something like 
-```Python 2.7.13 :: Anaconda 4.3.1 (64-bit)
+```
+Python 3. :: Anaconda 4.3.1 (64-bit)
 ```
 
 To make sure notebooks are working, type `jupyter notebook`. You should have a
@@ -83,9 +85,9 @@ different things](http://blog.jupyter.org/2015/04/15/the-big-split/) and you
 will find a lot of how-tos on the internet about configuring iPython but few
 about Jupyter.
 
-1. Download the [Spark_Workshop_Notebook.ipynb](https://raw.githubusercontent.com/dsiufl/Spark-Workshop/master/Spark_Workshop_Notebook.ipynb) 
+1. Download the Spark_Workshop_Notebook_Instructor.ipynb notebook. The other instructor notebook is set up to run on the iDigBio cluster and won't run without modification on your local machine.
 by right-clicking on that link and choosing "Save as File".
-1. Move the Spark_Workshop_Notebook.ipynb to the Spark Workshop directory on your Desktop you 
+1. Move the Spark_Workshop_Notebook_Instructor.ipynb to the Spark Workshop directory on your Desktop you 
    created earlier.
 1. Open a Command Prompt in Windows or Terminal in OS X and change to the Spark
    Workshop directory.
