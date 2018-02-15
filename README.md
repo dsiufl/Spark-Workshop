@@ -85,9 +85,9 @@ different things](http://blog.jupyter.org/2015/04/15/the-big-split/) and you
 will find a lot of how-tos on the internet about configuring iPython but few
 about Jupyter.
 
-1. Download the Spark_Workshop_Notebook_Instructor.ipynb notebook. The other instructor notebook is set up to run on the iDigBio cluster and won't run without modification on your local machine.
+1. Download the (Spark_Workshop_Notebook.ipynb](https://raw.githubusercontent.com/dsiufl/Spark-Workshop/master/Spark_Workshop_Notebook.ipynb) notebook from this repository. The other instructor notebook is set up to run on the iDigBio cluster and won't run without modification on your local machine.
 by right-clicking on that link and choosing "Save as File".
-1. Move the Spark_Workshop_Notebook_Instructor.ipynb to the Spark Workshop directory on your Desktop you 
+1. Move the Spark_Workshop_Notebook.ipynb to the Spark Workshop directory on your Desktop you 
    created earlier.
 1. Open a Command Prompt in Windows or Terminal in OS X and change to the Spark
    Workshop directory.
